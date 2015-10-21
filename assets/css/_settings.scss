@@ -1,0 +1,70 @@
+/*** Colors ***/
+// $primary-color: color("materialize-red", "lighten-2") !default;
+// $primary-color-light: lighten($primary-color, 15%) !default;
+// $primary-color-dark: darken($primary-color, 15%) !default;
+//
+// $secondary-color: color("teal", "lighten-1") !default;
+// $success-color: color("green", "base") !default;
+// $error-color: color("red", "base") !default;
+// $link-color: color("light-blue", "darken-1") !default;
+
+// $primary-color: #F6C;
+// $text-color: #2E2D33;
+// $accent-color: #BD5248;
+// $bg-color: #F6F6F8;
+// $link-color: $accent-color;
+// $selection-color: #FFF498;
+//
+// $pink: #FC39C5;
+// $green: #21CAA3;
+// $yellow: #E9CB30;
+//
+// 
+//
+// /*** Fonts ***/
+// $roboto-font-path: "../font/roboto/" !default;
+// $icons-font-path: "../font/material-design-icons/" !default;
+
+
+/*******************************************************************/
+/***  op ***/
+/*******************************************************************/
+
+// Color Typography
+$primary-color: blue !default;
+$primary-color-light: lighten($primary-color, 15%) !default;
+$primary-color-dark: darken($primary-color, 15%) !default;
+
+$secondary-color: white;
+$success-color: green;
+$error-color: red;
+
+$bg-color: #F6F6F8;
+$link-color: #BD5248;
+
+$off-black: rgba(0, 0, 0, 0.87) !default;
+$midgray: #383838;
+$darkgray: #242424;
+
+// Header Styles
+$h1-fontsize: 4.2rem !default;
+$h2-fontsize: 3.56rem !default;
+$h3-fontsize: 2.92rem !default;
+$h4-fontsize: 2.28rem !default;
+$h5-fontsize: 1.64rem !default;
+$h6-fontsize: 1rem !default;
+
+// Font Styles
+$open: 'Open Sans';
+$font-family: $open;
+$text-color: $off-black;
+
+// Breakpoints
+$breakpoints: (
+  'medium': (min-width: 601px),
+  'large': (min-width: 993px),
+  'huge': (min-width: 1201px),
+);
+
+// Max-width
+$width: 1200px;

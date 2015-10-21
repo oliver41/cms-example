@@ -1,0 +1,163 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  font-size: 100%;
+  min-height: 100vh;
+  width: 100%;
+}
+
+body {
+  background: $bg-color;
+  font-size: 1em;
+  line-height: 1.6;
+  font-family: $font-family, sans-serif;
+  color: $text-color;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul {
+  padding: 0;
+  li {
+    list-style-type: none;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* 1 */
+  max-height: 80vh; /* 2 */
+  margin: 0 auto;
+}
+
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 30px;
+  height: 0;
+}
+
+/* clearfix */
+
+.cf:before,
+.cf:after {
+	content:" ";
+	display:table;
+}
+.cf:after {
+	clear:both;
+}
+
+/*******************
+  Utility Classes
+*******************/
+
+.hide {
+  display: none !important;
+}
+
+// Text Align
+.left-align {
+  text-align: left;
+}
+.right-align {
+  text-align: right
+}
+.center, .center-align {
+  text-align: center;
+}
+
+.left {
+  float: left !important;
+}
+.right {
+  float: right !important;
+}
+
+// No Text Select
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.truncate {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+
+// Label & Input fields from AtoZ
+
+form p {
+	position:relative;
+}
+
+label {
+	display:block;
+	margin-bottom:0.625rem;
+	color:#666;
+	font-weight:100;
+	vertical-align:top;
+}
+label em {
+	color:#ac6f66;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width:100%;
+	margin-bottom:0.3125rem;
+	padding:0.625rem;
+	border:1px solid #ccc;
+
+	-webkit-transition:0.3s;
+	        transition:0.3s;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	outline:0;
+	box-shadow:0 0 0.625rem rgba(172, 111, 102, 0.5);
+}
+textarea {
+	height:10rem;
+	resize:vertical;
+}
+
+// End Label & Input
