@@ -1,6 +1,4 @@
-axis         = require 'axis'
-rupture      = require 'rupture'
-autoprefixer = require 'autoprefixer-stylus'
+sass 				 = require 'node-sass'
 contentful   = require 'roots-contentful'
 config       = require './contentful'
 marked       = require 'marked'
@@ -11,8 +9,6 @@ module.exports =
     'Makefile', 'ship*'
   ]
 
-  stylus:
-    use: [axis(), rupture(), autoprefixer()]
 
   locals:
     marked: marked

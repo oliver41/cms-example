@@ -7,8 +7,8 @@
     "coffee-script": "1.9.x",
     "axis": "0.3.x",
     "rupture": "0.6.x",
-    "roots": "3.0.x",
-    "roots-contentful": "0.0.7",
+    "roots": "3.2.2",
+    "roots-contentful": "0.0.8",
     "ship": "0.2.x"
   },
   "devDependencies": {
