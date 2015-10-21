@@ -25,6 +25,11 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+.container {
+  max-width: $width;
+  margin: 0 auto;
+}
+
 ul {
 	list-style-type: none;
 }
